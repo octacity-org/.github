@@ -60,7 +60,7 @@ Before creating a new discussion, check whether the question has already been an
 
 ## Membership Questions
 
-The [`0ctacity/membership`](https://github.com/0ctacity/membership) repository is used for membership applications, not general membership support issues.
+The [`octacity-org/membership`](https://github.com/octacity-org/membership) repository is used for membership applications, not general membership support issues.
 
 Read its README to understand:
 
