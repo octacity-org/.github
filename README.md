@@ -1,5 +1,7 @@
 # Octacity Community Files
 
+> 🌐 For the Turkish version of this document, see [README_tr.md](./README_tr.md).
+
 This repository contains the shared community standards, policies, and templates used across the Octacity organization.
 
 ## Contents
