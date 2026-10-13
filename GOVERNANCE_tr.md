@@ -174,7 +174,7 @@ Etkinlik yalnızca kodla veya harcanan saatle ölçülmez. Anlamlı katılım ş
 - Teknik tartışmalara katılmak
 - İşleri koordine etmek
 - Engelleri açıkça bildirmek
-- Diğer katkıcılara destek olmak
+- Katkıda bulunan diğer kişilere destek olmak
 
 Üyelerin etkinliği, Organizasyon Lideri tarafından ekip liderleriyle birlikte gözden geçirilebilir.
 
@@ -215,7 +215,7 @@ Sorumlu ekip şunlardan sorumludur:
 
 Olağan repository ve proje kararlarında nihai yetki sorumlu ekibe aittir.
 
-Diğer ekiplerin üyeleri ve dışarıdan katkıcılar katılabilir; ancak işi inceleme ve yönlendirme sorumluluğu sorumlu ekipte kalır.
+Diğer ekiplerin üyeleri ve dışarıdan katkıda bulunanlar katılabilir; ancak işi inceleme ve yönlendirme sorumluluğu sorumlu ekipte kalır.
 
 ## Repository İnceleme Yetkisi
 
@@ -254,7 +254,7 @@ Projeler yalnızca geçici bir heves, kısa bir gösterim veya ilk uygulamadan s
 Bir proje oluşturmadan önce, öneren ekip şunları değerlendirmelidir:
 
 - Bakımını kimin yapacağı
-- Katkıcıların nasıl katılabileceği
+- Katkıda bulunmak isteyenlerin nasıl katılabileceği
 - Kapsamının sürdürülebilir olup olmadığı
 - Başka bir projeyi tekrarlayıp tekrarlamadığı
 - Uzun vadede nasıl bir değer sağladığı

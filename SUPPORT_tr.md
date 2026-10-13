@@ -10,7 +10,7 @@ Yardım istemeden önce ilgili repository'nin README dosyasını, dokümantasyon
 
 ## Hata Bildirimleri
 
-Hataları ilgili repository'nin issue takipçisi üzerinden bildirin.
+Hataları ilgili repository'nin Issues bölümü üzerinden bildirin.
 
 Yeni bir issue açmadan önce:
 
@@ -47,7 +47,7 @@ Devam eden işlerle ilgili sorular o işe bağlı kalmalıdır.
 - Tartışma
 - Proje başlığı
 
-Soruları bağlamında tutmak, kararları katkıcılar, inceleyenler ve gelecekteki maintainer'lar için görünür kılar.
+Soruları bağlamında tutmak, kararları katkıda bulunanlar, inceleyenler ve gelecekteki maintainer'lar için görünür kılar.
 
 ## Octacity Hakkında Genel Sorular
 
@@ -79,7 +79,7 @@ Hâlâ sorularınız varsa ve başvurmayı düşünüyorsanız bir üyelik başv
 
 Ciddiye alınabilir güvenlik açıkları, ilgili repository'de GitHub Private Vulnerability Reporting üzerinden özel olarak bildirilmelidir.
 
-Olağan güvenlik iyileştirmeleri, sıkılaştırma önerileri, bağımlılık güncellemeleri ve katmanlı savunma değişiklikleri, istismar edilebilir bir zayıflığı açığa çıkarmadığı sürece herkese açık biçimde tartışılabilir.
+Olağan güvenlik iyileştirmeleri, güvenliği güçlendirme önerileri, bağımlılık güncellemeleri ve katmanlı savunma değişiklikleri, istismar edilebilir bir zayıflığı açığa çıkarmadığı sürece herkese açık biçimde tartışılabilir.
 
 Ayrıntılar için Octacity [Güvenlik Politikası](SECURITY_tr.md)'na bakın.
 
@@ -93,7 +93,7 @@ Octacity, proje ve topluluk faaliyetlerinin neredeyse tamamı için GitHub'ı ku
 
 - Sorular görünür kalır
 - Kararlar belgelenir
-- Diğer katkıcılar yardımcı olabilir
+- Katkıda bulunan diğer kişiler yardımcı olabilir
 - Bilgi özel mesajlarda kaybolmaz
 - Yerleşik süreçler atlanmaz
 
@@ -117,11 +117,11 @@ Tekrarlanan mesajlar, mükerrer issue'lar veya özelden iletişim yanıtı hızl
 
 Aşağıdaki yolu izleyin:
 
-- **Hata:** ilgili repository'nin issue takipçisi
+- **Hata:** ilgili repository'nin Issues bölümü
 - **Yeni özellik veya daha geniş öneri:** ilgili repository'nin Discussions alanı
-- **İyileştirme veya optimizasyon:** ilgili repository'nin issue takipçisi
+- **İyileştirme veya optimizasyon:** ilgili repository'nin Issues bölümü
 - **Uygulama sorusu:** ilgili issue, pull request veya tartışma
 - **Octacity hakkında genel soru:** organizasyonun Discussions alanı
 - **Üyelik:** membership repository'sini okuyun ve uygunsa başvurun
 - **Güvenlik açığı:** GitHub Private Vulnerability Reporting
-- **Olağan güvenlik iyileştirmesi:** ilgili repository'nin herkese açık issue takipçisi
+- **Olağan güvenlik iyileştirmesi:** ilgili repository'nin herkese açık Issues bölümü

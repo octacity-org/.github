@@ -13,7 +13,7 @@ Repository'ye özel kurallar bu belgeden önce gelir.
 Aşağıdaki iki gruptan da katkı bekliyoruz:
 
 - Octacity üyeleri
-- Organizasyon dışından katkıcılar
+- Organizasyon dışından katkıda bulunanlar
 
 Dışarıdan katkı kabul eden repository'lere katkıda bulunmak için üyelik gerekmez.
 
@@ -25,7 +25,7 @@ Octacity GitHub organizasyonunun çalışma dili İngilizcedir.
 
 Issue'lar, pull request'ler, incelemeler, tartışmalar, üyelik başvuruları, proje önerileri ve projeyle ilgili diğer iletişim İngilizce yazılmalıdır.
 
-Açık ve anlaşılır iletişim beklenir; ancak kusursuz dil bilgisi veya akıcılık şart değildir. Katkıcılar çeviri veya yazım desteği araçlarını kullanabilir.
+Açık ve anlaşılır iletişim beklenir; ancak kusursuz dil bilgisi veya akıcılık şart değildir. Katkıda bulunanlar çeviri veya yazım desteği araçlarını kullanabilir.
 
 Ağırlıklı olarak başka bir dilde yazılmış içeriğin İngilizce olarak yeniden yazılması istenebilir. Güncellenmezse kapatılabilir veya incelenmeden bırakılabilir.
 
@@ -50,9 +50,9 @@ Mevcut bir issue üzerinde çalışmayı düşündüğünüzde şuna benzer bir 
 
 > I would like to work on this.
 
-Onay beklemeniz kuvvetle tavsiye edilir. Başka bir katkıcı aynı sorun üzerinde zaten çalışıyor olabilir veya sorumlu ekibin henüz belgelenmemiş ek bilgisi olabilir.
+Onay beklemeniz kuvvetle tavsiye edilir. Başka biri aynı sorun üzerinde zaten çalışıyor olabilir veya sorumlu ekibin henüz belgelenmemiş ek bilgisi olabilir.
 
-Repository aksini belirtmediği sürece bir issue'yu üstlenmek her yerde zorunlu değildir. Ancak iletişim kurmadan çalışmaya başlayan katkıcılar şu riskleri kabul etmiş olur:
+Repository aksini belirtmediği sürece bir issue'yu üstlenmek her yerde zorunlu değildir. Ancak iletişim kurmadan çalışmaya başlayanlar şu riskleri kabul etmiş olur:
 
 - Aynı iş zaten yürütülüyor olabilir
 - Önerilen yaklaşım projenin yönüyle çelişebilir
@@ -80,7 +80,7 @@ Aşağıdakileri önemli ölçüde etkileyen değişiklikleri yapmadan önce bir
 
 Talep edilmemiş büyük yeniden yazımlar göndermeyin.
 
-Sorumlu ekip, çalışmayı onaylamadan önce bir öneri, tasarım belgesi, kavram kanıtı veya daha küçük bir uygulama planı isteyebilir.
+Sorumlu ekip, çalışmayı onaylamadan önce bir öneri, tasarım belgesi, proof of concept (PoC) veya daha küçük bir uygulama planı isteyebilir.
 
 ## Geliştirme Kuralları
 
@@ -187,7 +187,7 @@ Yapay zekâ destekli geliştirmeye izin verilir.
 
 Octacity, katkıları bir yapay zekâ aracının kullanılıp kullanılmadığına göre değil; kalitelerine, dürüstlüklerine, bakım yapılabilirliklerine ve proje kurallarına uygunluklarına göre değerlendirir.
 
-Gönderilen tüm işin sorumluluğu tamamen katkıcıya aittir.
+Gönderilen tüm işin sorumluluğu tamamen katkıyı gönderen kişiye aittir.
 
 Bu, şunları yapmanız gerektiği anlamına gelir:
 
@@ -201,9 +201,9 @@ Bu, şunları yapmanız gerektiği anlamına gelir:
 
 Gözden geçirilmemiş, büyük miktarda üretilmiş içerik göndermeyin.
 
-Bir katkıcı otomatik araçlar kullanıp sonucu anlamak veya doğrulamak için çaba göstermediğinde, inceleyenler tekrarlanan kural ihlallerine, özensiz çıktıya veya yanıltıcı iddialara karşı daha az hoşgörülü olabilir.
+Katkıda bulunan kişi otomatik araçlar kullanıp sonucu anlamak veya doğrulamak için çaba göstermediğinde, inceleyenler tekrarlanan kural ihlallerine, özensiz çıktıya veya yanıltıcı iddialara karşı daha az hoşgörülü olabilir.
 
-Octacity, otonom bir ajanla değil, katkıcının kendisiyle iletişim kurmayı bekler. Botlar ve ajanlar bağımsız olarak tartışma yürütmemeli, inceleyenlerle tartışmamalı veya kendilerini bir katkının sorumlu yazarı olarak sunmamalıdır.
+Octacity, otonom bir ajanla değil, katkıyı gönderen kişinin kendisiyle iletişim kurmayı bekler. Botlar ve ajanlar bağımsız olarak tartışma yürütmemeli, inceleyenlerle tartışmamalı veya kendilerini bir katkının sorumlu yazarı olarak sunmamalıdır.
 
 ## Saygılı İş Birliği
 

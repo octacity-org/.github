@@ -50,7 +50,7 @@ Olağan güvenlik iyileştirmeleri, ciddiye alınabilir ve istismar edilebilir b
 Örnekler:
 
 - Genel bağımlılık güncellemeleri
-- Sıkılaştırma önerileri
+- Güvenliği güçlendirme önerileri
 - Daha güvenli varsayılanlar
 - Ek doğrulama
 - Dokümantasyon iyileştirmeleri
@@ -70,7 +70,7 @@ Yararlı bir bildirim mümkün olduğunda şunları içermelidir:
 - Beklenen güvenlik sınırı
 - Gösterilmiş veya olası etki
 - Sorunu yeniden üretme adımları
-- Asgari bir kavram kanıtı
+- Asgari bir proof of concept (PoC)
 - İlgili loglar, ekran görüntüleri, istekler veya kod
 - İstismar için gereken koşullar
 - Biliniyorsa önerilen çözüm
@@ -90,14 +90,14 @@ Güvenlik testi, sorunu göstermek için gerekli olanla sınırlı tutulmalıdı
 - Hizmetleri aksatmak veya erişilebilirliği düşürmek
 - Hizmet engelleme veya yüksek hacimli yük testi yapmak
 - Sistemlere veya verilere zarar vermek, bunları bozmak ya da silmek
-- Kalıcılık sağlamak
+- Sistemde kalıcı erişim elde etmek
 - Zararlı yazılım yerleştirmek
 - Sosyal mühendislik, oltalama veya kimliğe bürünme yöntemlerini kullanmak
 - Üçüncü taraf altyapısını veya hizmetlerini hedef almak
 - Değerlendirme izniniz olmayan sistemler üzerinde test yapmak
 - Koordineli açıklamadan önce çalışan istismar ayrıntılarını kamuya açıklamak
 
-Mümkün olduğunca yerel ortamları, test örneklerini, kendi kontrolünüzdeki hesapları ve asgari kavram kanıtlarını kullanın.
+Mümkün olduğunca yerel ortamları, test örneklerini, kendi kontrolünüzdeki hesapları ve asgari PoC'leri kullanın.
 
 Sorunu kanıtlamak için gerekenin ötesinde özel verilerle, kimlik bilgileriyle, gizli bilgilerle veya erişimle beklenmedik biçimde karşılaşırsanız:
 
@@ -149,7 +149,7 @@ Sorumlu ekipler, makul ölçüde mümkün olduğunda yanıt vermeli ve ilerlemey
 
 ## Yapay Zekâ Destekli ve Otomatik Bildirimler
 
-Yapay zekâ destekli analiz, tarayıcılar, fuzzer'lar ve otomatik araçlar kullanılabilir.
+Yapay zekâ destekli analiz, güvenlik tarama araçları, fuzzer'lar ve otomatik araçlar kullanılabilir.
 
 Gönderimin sorumluluğu bildirimde bulunana aittir ve bu kişi:
 
@@ -163,7 +163,7 @@ Gönderimin sorumluluğu bildirimde bulunana aittir ve bu kişi:
 
 Octacity, otonom bir ajanla değil, bildirimin sorumlusu olan kişiyle iletişim kurmayı bekler.
 
-Doğrulanmamış tarayıcı çıktıları, spekülatif yapay zekâ üretimi bildirimler ve gerçekçi bir saldırı yolu içermeyen bildirimler daha fazla incelenmeden kapatılabilir.
+Doğrulanmamış tarama aracı çıktıları, spekülatif yapay zekâ üretimi bildirimler ve gerçekçi bir saldırı yolu içermeyen bildirimler daha fazla incelenmeden kapatılabilir.
 
 ## Ödüller ve Tanınma
 
@@ -177,7 +177,7 @@ Teşekkür şuralarda yer alabilir:
 - Güvenlik duyuruları
 - Teşekkür dosyaları
 - Proje dokümantasyonu
-- Organizasyon düzeyinde bir katkıcı listesi
+- Organizasyon düzeyinde bir katkıda bulunanlar listesi
 
 Teşekkürün biçimi ve yeri değişebilir; kamuya açık teşekkür garanti edilmez.
 
