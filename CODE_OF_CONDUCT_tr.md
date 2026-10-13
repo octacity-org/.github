@@ -6,7 +6,7 @@
 
 Octacity, topluluğa katılan herkes için saygılı, yapıcı ve kapsayıcı bir ortam sağlamayı taahhüt eder.
 
-Bu Davranış Kuralları; depolar, issue'lar, pull request'ler, tartışmalar, toplantılar, mülakatlar, etkinlikler ve resmi iletişim kanalları dahil tüm Octacity alanlarında geçerlidir.
+Bu Davranış Kuralları; repository'ler, issue'lar, pull request'ler, tartışmalar, toplantılar, mülakatlar, etkinlikler ve resmi iletişim kanalları dahil tüm Octacity alanlarında geçerlidir.
 
 ## Beklenen Davranış
 
@@ -48,7 +48,7 @@ Maintainer'lar; tekrara düşen, düşmanca, konu dışı veya verimsiz hale gel
 
 Bu Davranış Kuralları, bir kişi şunları yaparken geçerlidir:
 
-- Bir Octacity deposuna veya projesine katılırken.
+- Bir Octacity repository'sine veya projesine katılırken.
 - Resmi bir Octacity kanalı üzerinden iletişim kurarken.
 - Octacity'yi kamuya açık biçimde temsil ederken.
 - Bir Octacity toplantısına, mülakatına, etkinliğine veya ortak çalışma oturumuna katılırken.

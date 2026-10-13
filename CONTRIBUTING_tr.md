@@ -4,9 +4,9 @@
 
 Octacity'ye katkıda bulunmak istediğiniz için teşekkür ederiz.
 
-Bu belge, organizasyon genelinde kullanılan varsayılan katkı kurallarını içerir. Depolar ek veya farklı gereksinimler tanımlayabilir; bu nedenle çalışmaya başlamadan önce deponun README dosyasını, katkı kurallarını, issue şablonlarını ve pull request şablonunu mutlaka okuyun.
+Bu belge, organizasyon genelinde kullanılan varsayılan katkı kurallarını içerir. Repository'ler ek veya farklı gereksinimler tanımlayabilir; bu nedenle çalışmaya başlamadan önce repository'nin README dosyasını, katkı kurallarını, issue şablonlarını ve pull request şablonunu mutlaka okuyun.
 
-Depoya özel kurallar bu belgeden önce gelir.
+Repository'ye özel kurallar bu belgeden önce gelir.
 
 ## Kimler Katkıda Bulunabilir
 
@@ -15,9 +15,9 @@ Aşağıdaki iki gruptan da katkı bekliyoruz:
 - Octacity üyeleri
 - Organizasyon dışından katkıcılar
 
-Dışarıdan katkı kabul eden depolara katkıda bulunmak için üyelik gerekmez.
+Dışarıdan katkı kabul eden repository'lere katkıda bulunmak için üyelik gerekmez.
 
-Her depo, dışarıdan katkıya şu anda açık olup olmadığını belirtmelidir.
+Her repository, dışarıdan katkıya şu anda açık olup olmadığını belirtmelidir.
 
 ## Dil
 
@@ -42,7 +42,7 @@ Issue şunları açıklamalıdır:
 
 Bu, sorumlu ekibe bağlam sağlama, çalışmanın uygun olduğunu doğrulama ve tekrarlanan ya da çakışan emeği önleme fırsatı verir.
 
-Bariz yazım hatası düzeltmeleri gibi küçük değişiklikler için depo daha hafif bir süreç tanımlayabilir.
+Bariz yazım hatası düzeltmeleri gibi küçük değişiklikler için repository daha hafif bir süreç tanımlayabilir.
 
 ## Bir Issue'yu Üstlenmek
 
@@ -52,7 +52,7 @@ Mevcut bir issue üzerinde çalışmayı düşündüğünüzde şuna benzer bir 
 
 Onay beklemeniz kuvvetle tavsiye edilir. Başka bir katkıcı aynı sorun üzerinde zaten çalışıyor olabilir veya sorumlu ekibin henüz belgelenmemiş ek bilgisi olabilir.
 
-Depo aksini belirtmediği sürece bir issue'yu üstlenmek her yerde zorunlu değildir. Ancak iletişim kurmadan çalışmaya başlayan katkıcılar şu riskleri kabul etmiş olur:
+Repository aksini belirtmediği sürece bir issue'yu üstlenmek her yerde zorunlu değildir. Ancak iletişim kurmadan çalışmaya başlayan katkıcılar şu riskleri kabul etmiş olur:
 
 - Aynı iş zaten yürütülüyor olabilir
 - Önerilen yaklaşım projenin yönüyle çelişebilir
@@ -74,7 +74,7 @@ Aşağıdakileri önemli ölçüde etkileyen değişiklikleri yapmadan önce bir
 - Güvenlik sınırları
 - Bağımlılıklar
 - Derleme veya dağıtım sistemleri
-- Depo yapısı
+- Repository yapısı
 - Kullanıcıya dönük önemli davranışlar
 - Uyumluluk veya geçiş gereksinimleri
 
@@ -84,7 +84,7 @@ Sorumlu ekip, çalışmayı onaylamadan önce bir öneri, tasarım belgesi, kavr
 
 ## Geliştirme Kuralları
 
-Deponun sağladığı talimatları izleyin.
+Repository'nin sağladığı talimatları izleyin.
 
 Bunlar şu konulardaki gereksinimleri içerebilir:
 
@@ -132,11 +132,11 @@ docs: clarify local setup instructions
 refactor(storage): separate cache management
 ```
 
-Değişikliği açıkça anlatan commit mesajları yazın. Depolar ek kurallar tanımlayabilir.
+Değişikliği açıkça anlatan commit mesajları yazın. Repository'ler ek kurallar tanımlayabilir.
 
 ## Pull Request'ler
 
-Pull request gereksinimleri, her deponun pull request şablonunda tanımlanır.
+Pull request gereksinimleri, her repository'nin pull request şablonunda tanımlanır.
 
 Genel olarak bir pull request:
 
@@ -144,7 +144,7 @@ Genel olarak bir pull request:
 - Tek ve net bir amaca odaklanmalı
 - Neyin neden değiştiğini açıklamalı
 - İlgili issue'ya bağlantı vermeli
-- Deponun teknik gereksinimlerine uymalı
+- Repository'nin teknik gereksinimlerine uymalı
 - Uygun testleri veya doğrulamayı içermeli
 - Davranış değiştiğinde dokümantasyonu güncellemeli
 - Tamamlanmamış işleri veya bilinen sınırlamaları açıkça belirtmeli
@@ -156,16 +156,16 @@ Bir pull request göndermek, birleştirileceğini garanti etmez.
 
 ## İnceleme ve Karar Alma
 
-Her deponun, yönünden ve gelişiminin sürdürülmesinden sorumlu bir ekibi vardır.
+Her repository'nin, yönünden ve gelişiminin sürdürülmesinden sorumlu bir ekibi vardır.
 
 Katkıların nasıl inceleneceğine ekip lideri karar verir. Ekip lideri:
 
 - Katkıyı doğrudan inceleyebilir
 - İncelemeyi ekibinden bir üyeye devredebilir
-- Bir depo maintainer'ı atayabilir
+- Bir repository maintainer'ı atayabilir
 - Başka bir Octacity ekibinin yetkin bir üyesinden inceleme isteyebilir
 
-İnceleme yetkisi depodan depoya değişebilir.
+İnceleme yetkisi repository'den repository'ye değişebilir.
 
 Bir katkının kabul edilmesi, gözden geçirilmesi, ertelenmesi veya reddedilmesi konusunda son karar sorumlu ekibe aittir.
 
@@ -195,7 +195,7 @@ Bu, şunları yapmanız gerektiği anlamına gelir:
 - Yaklaşımı ve önemli kararları açıklayabilmek
 - Katkının iddia edildiği gibi çalıştığını doğrulamak
 - Üretilen çıktıyı hatalar, güvenlik sorunları ve uygunsuz değişiklikler açısından gözden geçirmek
-- Deponun katkı ve lisans gereksinimlerine uymak
+- Repository'nin katkı ve lisans gereksinimlerine uymak
 - İnceleme sırasında bizzat ve anlamlı biçimde yanıt vermek
 - Gönderilen işte bulunan sorunları düzeltmek
 
@@ -224,13 +224,13 @@ Soru sormak teşvik edilir. Belirsizliği gizlemek edilmez.
 
 ## Güvenlik Sorunları
 
-Depo açıkça böyle yapmanızı söylemediği sürece, şüphelenilen güvenlik açıklarını herkese açık bir issue üzerinden bildirmeyin.
+Repository açıkça böyle yapmanızı söylemediği sürece, şüphelenilen güvenlik açıklarını herkese açık bir issue üzerinden bildirmeyin.
 
-Octacity [Güvenlik Politikası](SECURITY_tr.md)'nda veya deponun kendi güvenlik dokümantasyonunda anlatılan süreci izleyin.
+Octacity [Güvenlik Politikası](SECURITY_tr.md)'nda veya repository'nin kendi güvenlik dokümantasyonunda anlatılan süreci izleyin.
 
 ## Lisans
 
-Bir katkı göndererek, katkınızın deponun kullandığı lisans altında dağıtılabileceğini kabul etmiş olursunuz.
+Bir katkı göndererek, katkınızın repository'nin kullandığı lisans altında dağıtılabileceğini kabul etmiş olursunuz.
 
 Katkıda bulunma hakkına sahip olmadığınız işleri göndermeyin.
 
@@ -238,6 +238,6 @@ Başka bir yerden kod, dokümantasyon, tasarım veya başka materyal uyarlarken 
 
 ## Sorular
 
-Açıklığa kavuşturulması gereken bir konu olduğunda deponun tanımladığı iletişim kanalını kullanın.
+Açıklığa kavuşturulması gereken bir konu olduğunda repository'nin tanımladığı iletişim kanalını kullanın.
 
 Projeye özel bir kanal yoksa, sorunuzu ve ilgili bağlamı anlatan bir issue açın.

@@ -6,17 +6,17 @@ Octacity bir açık kaynak topluluğudur; ticari bir destek sağlayıcısı değ
 
 Makul ölçüde mümkün olduğunca hızlı yanıt vermeyi ve yardımcı olmayı hedefleriz; ancak garantili yanıt süresi, hizmet düzeyi anlaşması veya kesintisiz kullanıcı desteği sunmayız.
 
-Yardım istemeden önce ilgili deponun README dosyasını, dokümantasyonunu, katkı kurallarını, mevcut issue'larını ve tartışmalarını inceleyin. Depolar kendi destek süreçlerini tanımlayabilir; bu süreç bu belgeden önce gelir.
+Yardım istemeden önce ilgili repository'nin README dosyasını, dokümantasyonunu, katkı kurallarını, mevcut issue'larını ve tartışmalarını inceleyin. Repository'ler kendi destek süreçlerini tanımlayabilir; bu süreç bu belgeden önce gelir.
 
 ## Hata Bildirimleri
 
-Hataları ilgili deponun issue takipçisi üzerinden bildirin.
+Hataları ilgili repository'nin issue takipçisi üzerinden bildirin.
 
 Yeni bir issue açmadan önce:
 
 - Sorunun daha önce bildirilip bildirilmediğini kontrol edin
 - Desteklenen bir sürümü veya branch'i kullandığınızı doğrulayın
-- Deponun issue şablonunu izleyin
+- Repository'nin issue şablonunu izleyin
 - Sorunu yeniden üretmek için net adımlar ekleyin
 - Beklenen ve gerçekleşen davranışı açıklayın
 - İlgili logları, ekran görüntülerini, ortam bilgilerini veya hata mesajlarını ekleyin
@@ -25,14 +25,14 @@ Ciddiye alınabilir güvenlik açıklarını herkese açık bir issue üzerinden
 
 ## Özellik İstekleri ve İyileştirme Fikirleri
 
-İlgili deponun herkese açık kanallarını kullanın.
+İlgili repository'nin herkese açık kanallarını kullanın.
 
 Genel kural olarak:
 
 - Yeni bir özellik, yetenek veya daha geniş bir yön önerirken **GitHub Discussions** kullanın
 - Mevcut davranışı iyileştirirken, optimize ederken, düzeltirken veya genişletirken **GitHub Issues** kullanın
 
-Bir depo, iş akışına bağlı olarak farklı bir süreç tanımlayabilir.
+Bir repository, iş akışına bağlı olarak farklı bir süreç tanımlayabilir.
 
 Önemli veya mimari öneriler uygulanmadan önce tartışılmalıdır.
 
@@ -58,11 +58,11 @@ Yeni bir tartışma açmadan önce sorunun şuralarda yanıtlanıp yanıtlanmad�
 - Organizasyon profili
 - Ortak topluluk dosyaları
 - Mevcut tartışmalar
-- İlgili depo dokümantasyonu
+- İlgili repository dokümantasyonu
 
 ## Üyelik Soruları
 
-[`octacity-org/membership`](https://github.com/octacity-org/membership) deposu, genel üyelik destek issue'ları için değil, üyelik başvuruları için kullanılır.
+[`octacity-org/membership`](https://github.com/octacity-org/membership) repository'si, genel üyelik destek issue'ları için değil, üyelik başvuruları için kullanılır.
 
 Şunları anlamak için README dosyasını okuyun:
 
@@ -77,7 +77,7 @@ Hâlâ sorularınız varsa ve başvurmayı düşünüyorsanız bir üyelik başv
 
 ## Güvenlik
 
-Ciddiye alınabilir güvenlik açıkları, ilgili depoda GitHub Private Vulnerability Reporting üzerinden özel olarak bildirilmelidir.
+Ciddiye alınabilir güvenlik açıkları, ilgili repository'de GitHub Private Vulnerability Reporting üzerinden özel olarak bildirilmelidir.
 
 Olağan güvenlik iyileştirmeleri, sıkılaştırma önerileri, bağımlılık güncellemeleri ve katmanlı savunma değişiklikleri, istismar edilebilir bir zayıflığı açığa çıkarmadığı sürece herkese açık biçimde tartışılabilir.
 
@@ -117,11 +117,11 @@ Tekrarlanan mesajlar, mükerrer issue'lar veya özelden iletişim yanıtı hızl
 
 Aşağıdaki yolu izleyin:
 
-- **Hata:** ilgili deponun issue takipçisi
-- **Yeni özellik veya daha geniş öneri:** ilgili deponun Discussions alanı
-- **İyileştirme veya optimizasyon:** ilgili deponun issue takipçisi
+- **Hata:** ilgili repository'nin issue takipçisi
+- **Yeni özellik veya daha geniş öneri:** ilgili repository'nin Discussions alanı
+- **İyileştirme veya optimizasyon:** ilgili repository'nin issue takipçisi
 - **Uygulama sorusu:** ilgili issue, pull request veya tartışma
 - **Octacity hakkında genel soru:** organizasyonun Discussions alanı
-- **Üyelik:** membership deposunu okuyun ve uygunsa başvurun
+- **Üyelik:** membership repository'sini okuyun ve uygunsa başvurun
 - **Güvenlik açığı:** GitHub Private Vulnerability Reporting
-- **Olağan güvenlik iyileştirmesi:** ilgili deponun herkese açık issue takipçisi
+- **Olağan güvenlik iyileştirmesi:** ilgili repository'nin herkese açık issue takipçisi

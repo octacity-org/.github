@@ -2,7 +2,7 @@
 
 > 🌐 English version: [README.md](./README.md).
 
-Bu depo, Octacity organizasyonu genelinde kullanılan ortak topluluk standartlarını, politikaları ve şablonları içerir.
+Bu repository, Octacity organizasyonu genelinde kullanılan ortak topluluk standartlarını, politikaları ve şablonları içerir.
 
 ## İçerik
 
@@ -15,7 +15,7 @@ Bu depo, Octacity organizasyonu genelinde kullanılan ortak topluluk standartlar
 - [`.github/ISSUE_TEMPLATE`](.github/ISSUE_TEMPLATE) — varsayılan issue şablonları
 - [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md) — varsayılan pull request rehberi
 
-Bu dosyalar, desteklendiği yerlerde organizasyon genelinde varsayılan olarak geçerlidir. Gereksinimleri farklı olan depolar, projeye özel sürümlerini sağlayabilir.
+Bu dosyalar, desteklendiği yerlerde organizasyon genelinde varsayılan olarak geçerlidir. Gereksinimleri farklı olan repository'ler, projeye özel sürümlerini sağlayabilir.
 
 ## Organizasyon Profili
 

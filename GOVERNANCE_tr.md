@@ -6,7 +6,7 @@
 
 Bu belge; Octacity'nin nasıl organize edildiğini, yetkinin nasıl devredildiğini ve topluluk genelinde kararların nasıl alındığını tanımlar.
 
-Octacity, sekiz ana ekip etrafında yapılanmış bir açık kaynak topluluğudur. Organizasyona bir Organizasyon Lideri yön verir; ekip liderleri ekiplerini yönetir, sorumlu ekipler de depolarını yönlendirir.
+Octacity, sekiz ana ekip etrafında yapılanmış bir açık kaynak topluluğudur. Organizasyona bir Organizasyon Lideri yön verir; ekip liderleri ekiplerini yönetir, sorumlu ekipler de repository'lerini yönlendirir.
 
 Yönetişim modeli; organizasyonel hesap verebilirlikten, uzun vadeli güvenilirlikten veya geniş topluluğun sağlığından ödün vermeden ekiplere geniş bir bağımsızlık tanıyacak biçimde tasarlanmıştır.
 
@@ -21,7 +21,7 @@ Organizasyon Lideri şu konularda nihai yetkiye sahiptir:
 - Organizasyon üyeliği
 - Ekip liderlerinin atanması ve görevden alınması
 - Organizasyon genelindeki yapı ve politika
-- Depolara ve projelere müdahale
+- Repository'lere ve projelere müdahale
 - Ekip içinde veya ekipler arasında çözülemeyen anlaşmazlıklar
 - Bu yönetişim belgesindeki değişiklikler
 - Octacity'nin güvenliğini, hukuka uygunluğunu, bütünlüğünü veya uzun vadeli sağlığını önemli ölçüde etkileyebilecek her konu
@@ -58,7 +58,7 @@ Her ekip:
 - Kendi ekip liderine sahiptir
 - Octacity'nin üyelik gereksinimlerine tabi olmak kaydıyla istediği sayıda üye barındırabilir
 - Çalışmasını kendi ihtiyaçlarına göre düzenleyebilir
-- Depo oluşturabilir ve bakımını yapabilir
+- Repository oluşturabilir ve bakımını yapabilir
 - Projeler veya uzmanlık gerektiren sorumluluklar için alt ekipler kurabilir
 - Diğer herhangi bir Octacity ekibiyle iş birliği yapabilir
 
@@ -70,7 +70,7 @@ Ekip lideri, yararlı olduğunda alt ekipler oluşturabilir. Organizasyon Lideri
 
 Ekip liderleri Organizasyon Lideri tarafından atanır; görevden alınmaları veya değiştirilmeleri de onun yetkisindedir.
 
-Ekip lideri, ekibi içinde geniş yetkiye sahiptir. Ekibin organizasyonundan, üyelerinden, projelerinden, depo erişiminden, iç koordinasyonundan ve faaliyetinin sürmesinden sorumludur.
+Ekip lideri, ekibi içinde geniş yetkiye sahiptir. Ekibin organizasyonundan, üyelerinden, projelerinden, repository erişiminden, iç koordinasyonundan ve faaliyetinin sürmesinden sorumludur.
 
 Ekip lideri:
 
@@ -79,10 +79,10 @@ Ekip lideri:
 - Ekip üyeliğini yönetebilir
 - Alt ekipler oluşturabilir
 - Yeni proje önerilerini onaylayabilir
-- Depoların bakımının nasıl yapılacağını belirleyebilir
+- Repository'lerin bakımının nasıl yapılacağını belirleyebilir
 - Maintainer ve inceleyici atayabilir
 - Katkıların nasıl inceleneceğine karar verebilir
-- Ekibin sorumlu olduğu depolara erişimi kaldırabilir
+- Ekibin sorumlu olduğu repository'lere erişimi kaldırabilir
 - Ekip içi anlaşmazlıkları çözebilir
 - Diğer ekiplerle iş birliğini koordine edebilir
 - Başka bir ekip sorumluluğu almayı kabul ettiğinde proje bakımını devredebilir
@@ -99,7 +99,7 @@ Organizasyon Lideri, gerektiğinde bir ekip liderinin yetkisini veya kararların
 
 Bir ekibe üye olmak, kişiyi şunlardan alıkoymaz:
 
-- Başka bir ekibin depolarına katkıda bulunmak
+- Başka bir ekibin repository'lerine katkıda bulunmak
 - Kendi ekibi dışındaki işleri incelemek
 - Ekipler arası projelere katılmak
 - Teknik bilgi paylaşmak
@@ -112,7 +112,7 @@ Ekipler arası katkı kuvvetle teşvik edilir.
 - Düzenli olarak katılmak
 - Açık iletişim kurmak
 - Üzerinde anlaşılan sorumlulukları yerine getirmek
-- Proje ve depo kurallarına uymak
+- Proje ve repository kurallarına uymak
 - Müsaitliklerindeki önemli değişiklikler konusunda ekiplerini bilgilendirmek
 - Dürüst ve yapıcı biçimde katkıda bulunmak
 - Octacity Davranış Kuralları'na uymak
@@ -142,7 +142,7 @@ Bir üye, ilgili ekip liderleri anlaştığında daha sonra ekipler arasında ge
 
 ## Üyeliğin Sona Erdirilmesi
 
-Depo erişimi, sorumlu ekibin lideri tarafından kaldırılabilir.
+Repository erişimi, sorumlu ekibin lideri tarafından kaldırılabilir.
 
 Ekip liderleri, bir üyenin ekipten çıkarılmasını veya ekipler arasında geçişini düzenleyebilir. Geçişler, üyeyi alacak ekibin lideriyle koordine edilmeli ve Organizasyon Liderine bildirilmelidir.
 
@@ -154,7 +154,7 @@ Octacity organizasyonundan çıkarılmaya Organizasyon Lideri karar verir.
 - Tekrarlanan iletişim eksikliği
 - Uygunsuz davranış
 - Güven kaybı
-- Depo veya topluluk kurallarının tekrar tekrar göz ardı edilmesi
+- Repository veya topluluk kurallarının tekrar tekrar göz ardı edilmesi
 - Zararlı veya yıkıcı davranış
 - Yanlış beyan
 - Üzerinde anlaşılan sorumlulukların yerine getirilmemesi
@@ -196,9 +196,9 @@ Tekrarlanan katılma ve ayrılma döngüleri, özellikle ekipler veya projeler i
 
 ## Sorumlu Ekipler
 
-Her Octacity deposunun bir sorumlu ekibi (maintaining team) vardır.
+Her Octacity repository'sinin bir sorumlu ekibi (maintaining team) vardır.
 
-Bir depoyu oluşturan ekip, varsayılan olarak o deponun sorumlu ekibi olur.
+Bir repository'yi oluşturan ekip, varsayılan olarak o repository'nin sorumlu ekibi olur.
 
 Sorumlu ekip şunlardan sorumludur:
 
@@ -209,31 +209,31 @@ Sorumlu ekip şunlardan sorumludur:
 - Pull request incelemesi
 - Sürümler
 - Dokümantasyon
-- Depo erişimi
+- Repository erişimi
 - Güvenlik ve bakım
 - Projenin uzun vadeli sürdürülebilirliği
 
-Olağan depo ve proje kararlarında nihai yetki sorumlu ekibe aittir.
+Olağan repository ve proje kararlarında nihai yetki sorumlu ekibe aittir.
 
 Diğer ekiplerin üyeleri ve dışarıdan katkıcılar katılabilir; ancak işi inceleme ve yönlendirme sorumluluğu sorumlu ekipte kalır.
 
-## Depo İnceleme Yetkisi
+## Repository İnceleme Yetkisi
 
-Depo kararlarının ve katkıların nasıl inceleneceğini sorumlu ekibin lideri belirler.
+Repository kararlarının ve katkıların nasıl inceleneceğini sorumlu ekibin lideri belirler.
 
 Ekip lideri:
 
 - İşi doğrudan inceleyebilir
 - İncelemeyi bir ekip üyesine devredebilir
-- Depo maintainer'ları atayabilir
+- Repository maintainer'ları atayabilir
 - Başka bir ekipten inceleme isteyebilir
 - Sorumluluğu uzmanlığa göre atayabilir
 
-Depoya özel kurallar ek inceleme gereksinimleri tanımlayabilir.
+Repository'ye özel kurallar ek inceleme gereksinimleri tanımlayabilir.
 
 ## Proje Oluşturma
 
-Ekip lideri, yeni bir Octacity projesinin veya deposunun oluşturulmasını onaylayabilir.
+Ekip lideri, yeni bir Octacity projesinin veya repository'sinin oluşturulmasını onaylayabilir.
 
 Organizasyon Lideri, bu onayı reddetme veya geri alma yetkisini saklı tutar.
 
@@ -272,7 +272,7 @@ Sorumlu ekip bir projeyi sürdürmek istemediğinde veya artık sürdüremediği
 
 Uygun bir sorumlu ekip bulunamazsa proje arşivlenmelidir.
 
-Bakımını yapmaya hazır bir ekip yokken depolar aktifmiş gibi sunulmaya devam etmemelidir.
+Bakımını yapmaya hazır bir ekip yokken repository'ler aktifmiş gibi sunulmaya devam etmemelidir.
 
 ## Ekipler Arası İş Birliği
 
@@ -291,7 +291,7 @@ Ekipler arası iş birliği şunları içerebilir:
 - Test
 - Proje koordinasyonu
 
-Sorumluluk, ilgiye ve uzmanlığa göre belirlenir; ancak deposu üzerindeki nihai yetki sorumlu ekipte kalır.
+Sorumluluk, ilgiye ve uzmanlığa göre belirlenir; ancak repository'si üzerindeki nihai yetki sorumlu ekipte kalır.
 
 Sorumluluklar çakıştığında ekipler açık biçimde iletişim kurmalı ve işi yürütmek için en uygun konumdaki ekibi belirlemelidir.
 
@@ -309,7 +309,7 @@ Ekip lideri ciddi bir anlaşmazlığın doğrudan tarafı olduğunda veya anlaş
 
 İşler, sorumluluklar veya proje kapsamları çakıştığında ekipler doğrudan iletişim kurmalıdır.
 
-Deposuyla ilgili kararlarda nihai yetki sorumlu ekibe aittir.
+Repository'siyle ilgili kararlarda nihai yetki sorumlu ekibe aittir.
 
 Ekipler, açık bir neden olmadan mevcut Octacity projelerini tekrarlamaktan kaçınmalı ve rakip bir proje oluşturmak yerine iş birliğinin veya mevcut projeyi genişletmenin daha uygun olup olmadığını değerlendirmelidir.
 
@@ -317,7 +317,7 @@ Ekip liderleri arasında çözülemeyen çatışmaları Organizasyon Lideri çö
 
 ## Hukuki ve Güvenlik Sorumluluğu
 
-Her sorumlu ekip, depolarını ve çalışmalarını hukuka uygun ve sorumlu biçimde yönetmekle yükümlüdür.
+Her sorumlu ekip, repository'lerini ve çalışmalarını hukuka uygun ve sorumlu biçimde yönetmekle yükümlüdür.
 
 Bu, şunlara makul özen göstermeyi içerir:
 
@@ -331,9 +331,9 @@ Bu, şunlara makul özen göstermeyi içerir:
 - Dağıtım
 - Geçerli hukuki kısıtlamalar
 
-Depo kararları ciddi veya geri döndürülemez sonuçlar doğurabilir. Ekipler hukuki veya güvenlikle ilgili endişeleri hafife almamalıdır.
+Repository kararları ciddi veya geri döndürülemez sonuçlar doğurabilir. Ekipler hukuki veya güvenlikle ilgili endişeleri hafife almamalıdır.
 
-Bir proje, depo, sürüm veya ekip eylemi ciddiye alınabilir bir hukuki, güvenlik veya organizasyonel risk oluşturduğunda Organizasyon Lideri derhal müdahale edebilir.
+Bir proje, repository, sürüm veya ekip eylemi ciddiye alınabilir bir hukuki, güvenlik veya organizasyonel risk oluşturduğunda Organizasyon Lideri derhal müdahale edebilir.
 
 ## Yönetişim Değişiklikleri
 

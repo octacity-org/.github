@@ -4,25 +4,25 @@
 
 Octacity projelerinin güvenliğini artırmaya yardımcı olduğunuz için teşekkür ederiz.
 
-Bu belge, organizasyon genelinde kullanılan varsayılan güvenlik bildirimi kurallarını içerir. Depolar ek veya farklı gereksinimler tanımlayabilir; bu nedenle önce mutlaka deponun kendi `SECURITY.md` dosyasını, README dosyasını ve katkı kurallarını inceleyin.
+Bu belge, organizasyon genelinde kullanılan varsayılan güvenlik bildirimi kurallarını içerir. Repository'ler ek veya farklı gereksinimler tanımlayabilir; bu nedenle önce mutlaka repository'nin kendi `SECURITY.md` dosyasını, README dosyasını ve katkı kurallarını inceleyin.
 
-Depoya özel güvenlik politikaları bu belgeden önce gelir.
+Repository'ye özel güvenlik politikaları bu belgeden önce gelir.
 
 ## Desteklenen Sürümler
 
-Depo aksini belirtmediği sürece güvenlik düzeltmeleri varsayılan branch için sağlanır.
+Repository aksini belirtmediği sürece güvenlik düzeltmeleri varsayılan branch için sağlanır.
 
-Sorumlu ekipler, depo düzeyindeki güvenlik politikalarında belirli sürümler, branch'ler veya dağıtım ortamları için destek tanımlayabilir.
+Sorumlu ekipler, repository düzeyindeki güvenlik politikalarında belirli sürümler, branch'ler veya dağıtım ortamları için destek tanımlayabilir.
 
 ## Güvenlik Açığı Bildirme
 
 Verileri, yetkileri, gizli bilgileri, sistem erişimini, erişilebilirliği veya kod çalıştırmayı açığa çıkarabilecek ciddiye alınabilir güvenlik açıkları, GitHub Private Vulnerability Reporting üzerinden özel olarak bildirilmelidir.
 
-Etkilenen deponun **Security** sekmesini kullanın ve seçenek mevcutsa **Report a vulnerability** seçeneğini seçin.
+Etkilenen repository'nin **Security** sekmesini kullanın ve seçenek mevcutsa **Report a vulnerability** seçeneğini seçin.
 
 Kullanıcıları, dağıtımları, maintainer'ları veya altyapıyı riske atabilecek bir güvenlik açığı için herkese açık issue açmayın.
 
-Güvenlik veya emniyet açısından kritik depoların GitHub Private Vulnerability Reporting özelliğini etkinleştirmesi kuvvetle tavsiye edilir.
+Güvenlik veya emniyet açısından kritik repository'lerin GitHub Private Vulnerability Reporting özelliğini etkinleştirmesi kuvvetle tavsiye edilir.
 
 ## Neler Özel Olarak Bildirilmeli
 
@@ -65,7 +65,7 @@ Herkese açık tartışma mevcut bir zayıflığın nasıl istismar edileceğini
 
 Yararlı bir bildirim mümkün olduğunda şunları içermelidir:
 
-- Etkilenen depo, bileşen, branch veya sürüm
+- Etkilenen repository, bileşen, branch veya sürüm
 - Sorunun net bir açıklaması
 - Beklenen güvenlik sınırı
 - Gösterilmiş veya olası etki
@@ -118,13 +118,13 @@ Kullanıcıları veya dağıtımları korumak için makul ölçüde ek süre ger
 
 ## İnceleme ve Sorumluluk
 
-Bildirimi ele almak, etkilenen deponun sorumlu ekibinin görevidir.
+Bildirimi ele almak, etkilenen repository'nin sorumlu ekibinin görevidir.
 
 Ekip lideri:
 
 - Bildirimi doğrudan inceleyebilir
 - İncelemeyi bir ekip üyesine devredebilir
-- Bir depo maintainer'ı atayabilir
+- Bir repository maintainer'ı atayabilir
 - Başka bir Octacity ekibinin yetkin bir üyesinden yardım isteyebilir
 - İlgili upstream projeler veya hizmet sağlayıcılarla koordinasyon kurabilir
 
@@ -159,7 +159,7 @@ Gönderimin sorumluluğu bildirimde bulunana aittir ve bu kişi:
 - Doğrulanmış bulguları üretilmiş spekülasyondan ayırmalı
 - Maintainer sorularına bizzat yanıt vermeli
 - Doğrulanmamış çıktıyı büyük hacimlerde göndermekten kaçınmalı
-- Deponun kurallarına ve bu güvenlik politikasına uymalıdır
+- Repository'nin kurallarına ve bu güvenlik politikasına uymalıdır
 
 Octacity, otonom bir ajanla değil, bildirimin sorumlusu olan kişiyle iletişim kurmayı bekler.
 
@@ -173,7 +173,7 @@ Octacity, geçerli güvenlik açıklarını bildirenlere, anonim kalmak istemedi
 
 Teşekkür şuralarda yer alabilir:
 
-- Depo sürüm notları
+- Repository sürüm notları
 - Güvenlik duyuruları
 - Teşekkür dosyaları
 - Proje dokümantasyonu
@@ -204,7 +204,7 @@ Aşağıdakiler, gerçekçi bir güvenlik etkisi göstermedikçe genellikle güv
 - Octacity'nin kontrolü dışındaki üçüncü taraf hizmetlerdeki sorunlar
 - Zaten bilinen bir sorunun mükerrer bildirimleri
 
-Sorumlu ekipler depoya özel kapsam tanımlayabilir.
+Sorumlu ekipler repository'ye özel kapsam tanımlayabilir.
 
 ## İyi Niyetli Bildirim
 
@@ -218,4 +218,4 @@ Bu politika, sahibi olmadığınız veya değerlendirme izniniz bulunmayan siste
 
 Bir sorunun herkese açık mı yoksa özel mi bildirilmesi gerektiğinden emin değilseniz GitHub Private Vulnerability Reporting kullanın.
 
-Etkilenen depoda özel güvenlik açığı bildirimi etkin değilse, istismar ayrıntılarını kamuya açıklamadan, mevcut en güvenli proje kanalı üzerinden sorumlu ekiple iletişime geçin.
+Etkilenen repository'de özel güvenlik açığı bildirimi etkin değilse, istismar ayrıntılarını kamuya açıklamadan, mevcut en güvenli proje kanalı üzerinden sorumlu ekiple iletişime geçin.
